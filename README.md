@@ -70,6 +70,20 @@ An AI skill that provides design intelligence for building professional UI/UX ac
 
 ---
 
+## About This Standalone Edition
+
+- **Main repository:** [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- **Based on version:** upstream release `v2.15.0` (snapshot commit `56ea9cf174ed86786187daa9de0e6247cb0747e4`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-15)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions, npm (cli, gallery, stack) and pip (ui-styling scripts) dependency updates; upstream had no Dependabot config
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the docs and skill files (upstream tests, release and catalog workflows kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Next Level Builder and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT). This edition adds the enhancements listed above only.
+
 ## What's New in v2.0
 
 ### Intelligent Design System Generation
